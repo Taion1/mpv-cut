@@ -6,7 +6,7 @@ mp.msg.info("MPV-CUT LOADED")
 
 utils = require "mp.utils"
 
-local function print(s)
+function print(s)
 	mp.msg.info(s)
 	mp.osd_message(s)
 end
